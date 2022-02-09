@@ -1,5 +1,4 @@
 <img src="https://user-images.githubusercontent.com/95850553/153242582-6588782a-297c-4749-9851-cac83cd32b07.png" height="25px"/>
-
 # Rehub
 
 > One paragraph statement about the project.
