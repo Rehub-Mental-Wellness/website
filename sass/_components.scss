@@ -4,3 +4,23 @@
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+
+// Buttons
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: $color-primary;
+  padding: 1.6rem 3.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 .8rem 2.4rem -4px $color-shadow;
+}
+
+/* ## Font sizes
+- 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+## Spacing system
+- 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
