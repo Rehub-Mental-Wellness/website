@@ -45,9 +45,12 @@
 .section-hero {
   padding: 9.6rem 0;
   background-image: $hero-gradient;
-  
-  // temp
-  min-height: 90rem;
+}
+
+.hero {
+  &__img {
+    width: 100%;
+  }
 }
 
 /* ## Font sizes
