@@ -141,15 +141,60 @@
 .section-community {
   padding: 9.6rem 0;
   background-image: $features-gradient;
-
-  // temp
-  min-height: 150vh;
 }
 
 .features {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4.8rem;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 3.6rem;
+  padding: 4rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: $shadow-feature;
+
+  &__icon {
+    display: grid;
+    place-items: center;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 2.4rem;
+    background-color: red;
+
+    &--blue {
+      background-image: linear-gradient(to right bottom, #5ca1fe, #217bf4);
+      box-shadow: 0 0.8rem 1.6rem rgba(#217bf4, 0.3);
+    }
+
+    &--red {
+      background-image: linear-gradient(to right bottom, #ff858a, #f04148);
+      box-shadow: 0 0.8rem 1.6rem rgba(#f04148, 0.3);
+    }
+
+    &--yellow {
+      background-image: linear-gradient(to right bottom, #ffd085, #ffaf2e);
+      box-shadow: 0 0.8rem 1.6rem rgba(#ffaf2e, 0.3);
+    }
+  }
+
+  &__heading {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: $color-gray-4;
+    margin-bottom: 1.6rem;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: $color-gray-0;
+  }
 }
 
 /* ## Font sizes
