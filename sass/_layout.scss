@@ -69,17 +69,36 @@
   &__description {
     font-size: 1.6rem;
     line-height: 1.6;
+    margin-bottom: 3.6rem;
   }
 
   &__list {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
   }
 
   &__list-shape {
     display: block;
-    width: 0.8rem;
-    height: 2.4em;
+    width: 1rem;
+    height: 1em;
+    margin: 0.5rem;
     background-color: $color-primary;
+    box-shadow: 0 0 0 0.6rem rgba($color-primary, 0.1);
+    border-radius: 50%;
+  }
+
+  &__list-text {
+    color: $color-gray-3;
+    font-size: 1.8rem;
+    font-weight: 500;
   }
 
   // right
