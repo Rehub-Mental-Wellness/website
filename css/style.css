@@ -51,6 +51,14 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.section-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #656464;
+  width: 48rem;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
