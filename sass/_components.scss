@@ -25,7 +25,6 @@
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
-  max-width: 16ch;
   margin-bottom: 2.4rem;
 }
 
@@ -34,6 +33,10 @@
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
 }
 
 // Buttons
