@@ -1,0 +1,22 @@
+{
+  "name": "website-starter",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rehub-Mental-Wellness/website-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rehub-Mental-Wellness/website-starter/issues"
+  },
+  "homepage": "https://github.com/Rehub-Mental-Wellness/website-starter#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
