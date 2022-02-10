@@ -1,6 +1,7 @@
 // Variables
-$color-primary--dark-1: #6f6681;
-$color-primary--dark-2: #1a093f;
+
+$color-gray-0: #656464;
+$color-gray-1: #2B2B39;
 
 // Base
 *,
@@ -17,10 +18,10 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1;
   font-weight: 500;
-  color: $color-primary--dark-1;
+  color: $color-gray-0;
 }
 
 /* ## Font sizes

@@ -1,0 +1,41 @@
+//////////////////////////
+// Navigation
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  &__link:link,
+  &__link:visited {
+    color: $color-gray-0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  &__link--active:link,
+  &__link--active:visited {
+    color: $color-gray-1;
+    border-bottom: 1px solid $color-gray-1;
+    padding-bottom: 2px;
+  }
+}
+
+// logo in the nav
+.logo {
+  color: $color-gray-1;
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+/* ## Font sizes
+- 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+## Spacing system
+- 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
