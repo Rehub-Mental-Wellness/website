@@ -9,6 +9,13 @@ $color-gray-3: #171648;
 $color-shadow: rgba(33, 123, 244, 0.34);
 
 $hero-gradient: linear-gradient(to top left, #d4e7fe, #ffffff);
+$features-gradient: linear-gradient(
+  to bottom,
+  #ffffff,
+  rgba($color-primary, 0.1),
+  rgba($color-primary, 0.1),
+  #ffffff
+);
 
 // Base
 *,
