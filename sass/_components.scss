@@ -29,11 +29,13 @@
 }
 
 .section-description {
+  display: inline-block;
   font-size: 1.6rem;
   line-height: 1.6;
   color: $color-gray-0;
   width: 48rem;
   margin: 0 auto;
+  margin-bottom: 3.2rem;
 }
 
 // Container
