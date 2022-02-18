@@ -310,6 +310,7 @@ body {
 .tabs {
   display: flex;
   justify-content: center;
+  margin-bottom: 4.8rem;
 }
 .tabs__list {
   list-style: none;
@@ -331,6 +332,50 @@ body {
   border-radius: 0.6rem;
   background-color: #217bf4;
   box-shadow: 0 0.4rem 1.6rem -2px rgba(33, 123, 244, 0.34);
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+.team__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem;
+  border-radius: 1.5rem;
+  border: 2px solid #f3f3f380;
+}
+.team__img-box {
+  position: relative;
+  width: 14rem;
+  height: 14rem;
+  background-color: rgba(17, 50, 101, 0.08);
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+.team__img-box img {
+  border-radius: 50%;
+  width: 100%;
+}
+.team__img-icon {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  height: 2.4rem;
+  width: 2.4rem;
+  z-index: 10000;
+}
+.team__user-name {
+  color: #2f2c4a;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.team__user-id {
+  font-size: 1.6rem;
+  color: #656464;
 }
 
 /* ## Font sizes
