@@ -132,6 +132,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -433,6 +437,54 @@ body {
 .footer {
   color: #ffffff;
   background-color: #071931;
+  padding: 8rem;
+}
+.footer__logo:link, .footer__logo:visited {
+  display: inline-block;
+  color: #fff;
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.footer__social-links {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+.footer__social-link {
+  font-size: 2.4rem;
+}
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #999;
+  margin-top: auto;
+}
+.footer__heading {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.footer__nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer__link:link, .footer__link:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #e7e7e7;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.footer__link:hover {
+  color: #fff;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ## Font sizes
